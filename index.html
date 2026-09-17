@@ -360,6 +360,8 @@
   }
   .section-head h2{font-size:clamp(28px,3.4vw,40px);max-width:16ch;}
   .section-head p{max-width:38ch;color:var(--ink-soft);font-size:15px;}
+  .section-head p.one-line{max-width:none;white-space:nowrap;}
+  @media(max-width:760px){.section-head p.one-line{white-space:normal;}}
   .kicker{
     font-size:13px;color:var(--brass);font-weight:600;margin-bottom:14px;
     display:block;
@@ -637,7 +639,7 @@
           <span class="kicker">Практика</span>
           <h2>Области и компетенции</h2>
         </div>
-        <p>Полный цикл юридического сопровождения: от досудебных переговоров до кассации.</p>
+        <p>Полный цикл юридического сопровождения: от досудебных переговоров до вынесения решения суда кассационной инстанции.</p>
       </div>
       <div class="practice-list">
         <div class="practice-row">
@@ -650,7 +652,7 @@
         </div>
         <div class="practice-row">
           <span class="p-name">Уголовная практика</span>
-          <span class="p-desc">Защита на всех стадиях уголовного судопроизводства, включая экономические составы.</span>
+          <span class="p-desc">Защита на всех стадиях уголовного судопроизводства, включая экономические составы, включая преступления в сфере экономической деятельности.</span>
         </div>
         <div class="practice-row">
           <span class="p-name">Семейные споры</span>
@@ -675,7 +677,7 @@
           <span class="kicker">Как мы работаем</span>
           <h2>Путь от вопроса до решения</h2>
         </div>
-        <p>Каждое дело проходит одни и те же четыре этапа — прозрачно и с понятными сроками.</p>
+        <p class="one-line">Каждое дело проходит одни и те же четыре этапа — прозрачно и с понятными сроками.</p>
       </div>
       <div class="process-list">
         <div class="process-item">
@@ -691,7 +693,7 @@
         <div class="process-item">
           <div class="idx">03</div>
           <h3>Согласование</h3>
-          <p>Обсуждаем стратегию и её итоги, утверждаем план действий и заключаем договор.</p>
+          <p>Обсуждаем стратегию, утверждаем план действий и заключаем договор.</p>
         </div>
         <div class="process-item">
           <div class="idx">04</div>
@@ -707,9 +709,9 @@
       <div class="section-head">
         <div>
           <span class="kicker">Команда</span>
-          <h2>Ваше дело ведут лично</h2>
+          <h2>Команда</h2>
         </div>
-        <p>Три адвоката, каждый — с профильной специализацией.</p>
+        <p class="one-line">Три адвоката, каждый — с профильной специализацией.</p>
       </div>
       <div class="team-grid">
         <div class="team-card">
@@ -755,7 +757,7 @@
           <span class="kicker">Вопросы</span>
           <h2>Что нужно знать перед обращением</h2>
         </div>
-        <p>Если вашего вопроса здесь нет — задайте его напрямую на консультации.</p>
+        <p class="one-line">Если вашего вопроса здесь нет — задайте его напрямую на консультации.</p>
       </div>
       <div class="faq-list">
         <details class="faq-item">
@@ -796,12 +798,12 @@
           <span class="kicker">Как нас найти</span>
           <h2>Офис в центре города</h2>
         </div>
-        <p>Между Литейным и Греческим проспектом. 12 минут пешком от м. пл. Восстания или 10 минут пешком от м. Чернышевская.</p>
+        <p>Между Литейным и Греческим проспектом.<br>12 минут пешком от м. пл. Восстания или 10 минут пешком от м. Чернышевская.</p>
       </div>
       <div class="find-us-grid">
         <div class="find-us-map">
-          <iframe src="https://yandex.ru/map-widget/v1/?ll=30.359220%2C59.939000&z=16&pt=30.359220,59.939000,pm2rdm" loading="lazy" title="НКА на карте"></iframe>
-          <a class="find-us-route" href="https://yandex.ru/maps/?rtext=~59.939000,30.359220&rtt=auto" target="_blank" rel="noopener">
+          <iframe src="https://yandex.ru/map-widget/v1/?ll=30.362392%2C59.938874&z=16&pt=30.362392,59.938874,pm2rdm" loading="lazy" title="НКА на карте"></iframe>
+          <a class="find-us-route" href="https://yandex.ru/maps/?rtext=~59.938874,30.362392&rtt=auto" target="_blank" rel="noopener">
             <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 21s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="9" r="2.4" stroke="currentColor" stroke-width="1.6"/></svg>
             Проложить маршрут
           </a>
@@ -810,7 +812,7 @@
           <dl>
             <div>
               <dt>Адрес</dt>
-              <dd>г. Санкт-Петербург,<br>ул. Некрасова, дом 36</dd>
+              <dd>г. Санкт-Петербург,<br>ул. Некрасова, дом 42</dd>
             </div>
             <div>
               <dt>Ориентир</dt>
@@ -821,7 +823,7 @@
               <dd><a href="tel:+78127198737">+7 (812) 719-87-37</a></dd>
             </div>
           </dl>
-          <p class="fu-note">Встречи — по предварительной записи. Уточните удобное время у секретаря коллегии.</p>
+          <p class="fu-note">Встречи — по предварительной записи. Уточните удобное время по телефону.</p>
         </div>
       </div>
     </div>
@@ -834,13 +836,13 @@
     <div class="footer-grid">
       <div>
         <div class="foot-logo">НКА</div>
-        <p>Независимая коллегия адвокатов ведёт дела в Санкт-Петербурге и по всей России.</p>
+        <p>Независимая коллегия адвокатов Ленинградской области ведёт дела в Санкт-Петербурге и по всей России.</p>
       </div>
       <div>
         <h3>Контакты</h3>
         <a href="tel:+78127198737">+7 (812) 719-87-37</a>
         <a href="mailto:info@nka.lawyer">info@nka.lawyer</a>
-        <p>г. Санкт-Петербург, ул. Некрасова, дом 36</p>
+        <p>г. Санкт-Петербург, ул. Некрасова, дом 42</p>
       </div>
       <div>
         <h3>Коллегия</h3>

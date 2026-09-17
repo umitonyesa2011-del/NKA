@@ -373,7 +373,7 @@
   }
   .practice-row{
     display:grid;
-    grid-template-columns:2fr 3fr auto;
+    grid-template-columns:2fr 3fr;
     gap:24px;
     align-items:center;
     padding:26px 0;
@@ -385,10 +385,8 @@
     font-family:'Fraunces', serif;font-size:21px;
   }
   .practice-row .p-desc{color:#AEB8C4;font-size:14.5px;}
-  .practice-row .p-arrow{color:var(--brass-soft);font-size:20px;}
   @media(max-width:760px){
     .practice-row{grid-template-columns:1fr;gap:6px;}
-    .practice-row .p-arrow{display:none;}
   }
 
   /* ---------- Process ---------- */
@@ -537,9 +535,8 @@
             <a href="#practices">Исполнительное производство</a>
           </div>
           <div class="mega-col">
-            <h4>Уголовные и административные дела</h4>
+            <h4>Уголовные дела</h4>
             <a href="#practices">Уголовная практика</a>
-            <a href="#practices">Административная практика</a>
           </div>
           <div class="mega-col">
             <h4>Частным лицам</h4>
@@ -644,39 +641,28 @@
       </div>
       <div class="practice-list">
         <div class="practice-row">
-          <span class="p-name">Административная практика</span>
-          <span class="p-desc">Обжалование решений госорганов, споры об административных правонарушениях.</span>
-          <span class="p-arrow">→</span>
-        </div>
-        <div class="practice-row">
           <span class="p-name">Гражданская практика</span>
           <span class="p-desc">Защита прав в судах общей юрисдикции, договорные и имущественные споры.</span>
-          <span class="p-arrow">→</span>
         </div>
         <div class="practice-row">
           <span class="p-name">Арбитражные споры</span>
           <span class="p-desc">Экономические споры между организациями, банкротство, взыскание задолженности.</span>
-          <span class="p-arrow">→</span>
         </div>
         <div class="practice-row">
           <span class="p-name">Уголовная практика</span>
           <span class="p-desc">Защита на всех стадиях уголовного судопроизводства, включая экономические составы.</span>
-          <span class="p-arrow">→</span>
-        </div>
-        <div class="practice-row">
-          <span class="p-name">Трудовые споры</span>
-          <span class="p-desc">Незаконные увольнения, взыскание заработной платы, споры с работодателем.</span>
-          <span class="p-arrow">→</span>
         </div>
         <div class="practice-row">
           <span class="p-name">Семейные споры</span>
           <span class="p-desc">Раздел имущества, определение места жительства детей, алиментные обязательства.</span>
-          <span class="p-arrow">→</span>
         </div>
         <div class="practice-row">
           <span class="p-name">Исполнительное производство</span>
           <span class="p-desc">Сопровождение взыскания на стадии исполнения судебных актов.</span>
-          <span class="p-arrow">→</span>
+        </div>
+        <div class="practice-row">
+          <span class="p-name">Трудовые споры</span>
+          <span class="p-desc">Незаконные увольнения, взыскание заработной платы, споры с работодателем.</span>
         </div>
       </div>
     </div>
